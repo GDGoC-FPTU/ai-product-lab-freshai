@@ -34,3 +34,53 @@
 │ Quick Architecture: [ ] No AI  [ ] Rule  [ ] LLM  [x] Agent │
 └─────────────────────────────────────────────────────────────┘
 ```
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ QUICK PROBLEM CARD #2                                       │
+│                                                             │
+│ Bài toán: Phân loại & Ghép nối Cell Pin tự động   │
+│ Công ty thành viên: [x] VinFast  [ ] Xanh SM  [ ] Vinhomes  │
+│                     [ ] Vinmec   [ ] Khác (Ghi rõ)________  │
+│                                                             │
+│ Ai đang đau (Actor)? Kỹ sư Quy trình & Kiểm định Pin │
+│                                                             │
+│ Workflow thủ công hiện tại (3-5 bước):                      │
+│   1. Đọc dữ liệu đo (Voltage/IR/Capacitance) từ máy test ──> 2. Tính toán & Phân nhóm    │
+│   cell (Grouping) bằng Rule cứng ──> 3. Lập sơ đồ ghép Module ──> 4. Xuất lệnh đóng Pack │
+│                                                             │
+│ Bước nào tốn thời gian/lỗi nhất? Tính toán & Phân nhóm cell (⏱ 2-4 giờ/lô 10.000 cells)      │
+│ AI có thể nhảy vào hỗ trợ ở bước nào? Xử lý Kiểm duyệt│
+│                                                             │
+│ Đo thành công bằng gì (Metric có số)? Giảm thời gian tính toán từ 3 giờ ──> dưới 2 phút; │
+│                                       Giảm tỷ lệ lệch áp (Delta V) giữa các cell trong  │
+│                                       Pack từ 15mV ──> under 5mV│
+│                                                             │
+│ Quick Architecture: [ ] No AI  [x] Rule  [ ] LLM  [x] Agent │
+└─────────────────────────────────────────────────────────────┘
+```
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│ QUICK PROBLEM CARD #4                                                                   │
+│                                                                                         │
+│ Bài toán: Phân tích Log thử nghiệm ADAS & Phân loại Bug phần mềm (Automotive Software   │
+│           Log Triaging & Edge-Case Detection)                                          │
+│ Công ty thành viên: [x] VinFast  [ ] Xanh SM  [ ] Vinhomes                              │
+│                     [ ] Vinmec   [ ] Khác (Ghi rõ)________                              │
+│                                                                                         │
+│ Ai đang đau (Actor)? Kỹ sư Phần mềm ADAS / Kỹ sư Kiểm thử (ADAS Test & QA Engineer)    │
+│                                                                                         │
+│ Workflow thủ công hiện tại (3-5 bước):                                                  │
+│   1. Tải log chuỗi thời gian (CAN bus, Camera, LiDAR) ──> 2. Quét log tìm sự cố/Phantom │
+│   Braking ──> 3. Cắt clip & Gán nhãn thủ công ──> 4. Phân loại & Assign ticket Bug cho Dev│
+│                                                                                         │
+│ Bước nào tốn thời gian/lỗi nhất? Quét log tìm sự cố & Cắt clip (⏱ 4-8 giờ/ca test-drive)│
+│ AI có thể nhảy vào hỗ trợ ở bước nào? Quét log tìm sự cố & Phân loại Assign ticket Bug │
+│                                                                                         │
+│ Đo thành công bằng gì (Metric có số)? Giảm thời gian Triaging log từ 6 giờ ──> under 15 min;│
+│                                       Tăng tỷ lệ phát hiện sớm Edge Cases từ 60% ──> 95%│
+│                                                                                         │
+│ Quick Architecture: [ ] No AI  [ ] Rule  [ ] LLM  [x] Agent (Anomaly Detection + LLM Agent)│
+└─────────────────────────────────────────────────────────────────────────────────────────┘
+```
