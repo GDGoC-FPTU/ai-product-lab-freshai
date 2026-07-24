@@ -51,4 +51,4 @@ Sau khi bổ sung các điều kiện này, AI đưa ra câu trả lời sát v�
 
 Qua buổi học, tôi nhận thấy AI là một công cụ hỗ trợ rất hiệu quả trong việc phân tích bài toán, xây dựng quy trình và đề xuất giải pháp. Tuy nhiên, AI không hiểu đầy đủ bối cảnh nếu prompt chưa đủ chi tiết và đôi khi đưa ra các giả định hoặc số liệu chưa được kiểm chứng.
 
-Để sử dụng AI hiệu quả, cần mô tả rõ phạm vi bài toán, vai trò của AI và các giới hạn của hệ thống. Đồng thời, người dùng phải kiểm tra lại các thông tin quan trọng trước khi đưa vào báo cáo hoặc áp dụng trong thực tế. AI nên được xem là một **trợ lý hỗ trợ ra quyết định**, còn việc đánh giá và chịu trách nhiệm cuối cùng vẫn thuộc về con người.
+Để sử dụng AI hiệu quả, cần mô tả rõ phạm vi bài toán, vai trò của AI và các giới hạn của hệ thống. Đồng thời, người dùng phải kiểm tra lại các thông tin quan trọng trước khi đưa vào báo cáo hoặc áp dụng trong thực tế. AI nên được xem là một **trợ lý hỗ trợ ra quyết định**, còn việc đánh giá và chịu trách nhiệm cuối cùng vẫn thuộc về con người

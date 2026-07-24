@@ -38,7 +38,7 @@ Hãy sử dụng **4 Lenses** dưới đây để quét qua hoạt động vận
 │   1. Camera trên xe ghi nhận video và AI tạo cảnh báo.      |
 |     ──> 2. Kỹ sư mở từng video để xem lại.                  |
 |     ──> 3. Đánh giá cảnh báo đúng/sai, xác định nguyên nhân |
-|     ──> 4. Gán nhãn dữ liệu và cập nhật dataset để huấn luyện│
+|     ──> 4. Gán nhãn dữ liệu và cập nhật dataset để huấn luyện │
 │                                                             │
 │ Bước nào tốn thời gian/lỗi nhất?Bước 2 & 3                  |
 |  Khoảng 2–5 phút/video (tùy độ dài và độ phức tạp).         │
