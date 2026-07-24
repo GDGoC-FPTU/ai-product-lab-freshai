@@ -5,15 +5,17 @@
 
 ## 👥 Thông tin nhóm
 
-> **Tên nhóm:** [Điền tên nhóm]
+> **Tên nhóm:** FreshAI
 > **Công ty thành viên được chọn:** Xanh SM (GSM)
 
 | Họ và tên | MSSV | Vai trò |
 |---|---|---|
-| Nguyễn Ngọc Sơn | 2A202601948 | [Điền vai trò] |
-| [Thành viên 2] | [MSSV] | [Vai trò] |
-| [Thành viên 3] | [MSSV] | [Vai trò] |
-| [Thành viên 4] | [MSSV] | [Vai trò] |
+| Nguyễn Khánh Toàn | 2A202601843 | Leader |
+| Nguyễn Ngọc Sơn | 2A202601948 | Thành viên |
+| Nguyễn Đình Phúc | 2A202601835 | Thành viên |
+| Lưu Quang Nhật | 2A202601920 | Thành viên |
+| Nguyễn Quang Huy | 2A202601165 | Thành viên |
+| Lường Duy Thái | 2A202601021 | Thành viên |
 
 ---
 
