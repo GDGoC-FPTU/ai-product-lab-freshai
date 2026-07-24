@@ -117,7 +117,7 @@ Hãy sử dụng **4 Lenses** dưới đây để quét qua hoạt động vận
 | ảnh để tự động phát hiện vết trầy, móp và nứt trên xe.      |
 │ Công ty thành viên:                                         │
 │ [x] VinFast   [x] Xanh SM   [ ] Vinhomes                    |
-| [ ] Vinmec   [ ] Khác: ____________                         │
+| [ ] Vinmec   [ ] Khác: ___________                          │
 │                                                             │
 │ Ai đang đau (Actor)?                                        │
 │ • Nhân viên giám định xe                                    │

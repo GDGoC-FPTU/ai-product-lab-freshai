@@ -9,7 +9,6 @@ Trong buổi học, tôi sử dụng ChatGPT như một trợ lý để brainsto
 Ban đầu, AI gợi ý nhiều bài toán khác nhau trong hệ sinh thái Vingroup như điều phối xe, xử lý ticket chăm sóc khách hàng và kiểm tra hư hỏng phương tiện. Sau khi thảo luận với nhóm, chúng tôi quyết định chọn bài toán **"Rà soát video Driver Monitoring để xác nhận tài xế đang mất tập trung"** vì phù hợp với lĩnh vực Computer Vision và có tính ứng dụng cao tại VinFast.
 
 Sau đó, tôi tiếp tục sử dụng AI để:
-
 * Phân tích quy trình vận hành hiện tại (Current Workflow).
 * Xác định Bottleneck trong quá trình rà soát video.
 * Xây dựng Problem Statement theo 6 trường của đề bài.
@@ -44,7 +43,7 @@ Cụ thể:
 * Báo cáo phải bám sát cấu trúc của đề bài gồm Current Workflow, Problem Statement, Future-State Flow và Evaluate.
 * Các số liệu phải được ghi rõ là ước tính nếu không có nguồn xác thực.
 
-Sau khi bổ sung các điều kiện này, AI đưa ra câu trả lời sát với yêu cầu hơn và phù hợp để nhóm sử dụng trong báo cáo.
+Sau khi bổ sung các điều kiện này, AI đưa ra câu trả lời sát với yêu cầu hơn và phù hợp để nhóm sử dụng trong báo cáo
 
 ---
 
