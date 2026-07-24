@@ -1,8 +1,8 @@
 # 01 — Problem Scan (Cá nhân)
 # Lab 02: AI Product Scoping — Vin Smart Future
 
-> **Họ và tên:** [Điền họ tên của bạn]
-> **MSSV:** [Điền MSSV]
+> **Họ và tên:** Nguyễn Ngọc Sơn
+> **MSSV:** 2A202601948
 > **Ngày thực hiện:** 24/07/2026
 
 ---
@@ -181,10 +181,3 @@ Chọn **top 3 bài toán tiềm năng nhất** từ bảng SCAN trên: **#1 (Xa
 
 ---
 
-> **✅ Checklist hoàn thành file này:**
-> - [ ] Điền đầy đủ Họ tên và MSSV ở đầu file
-> - [ ] Bảng SCAN có đủ 5 bài toán từ ≥2 công ty Vingroup
-> - [ ] Mỗi bài toán xác định đúng Lens (Lặp lại / Tốn thời gian / AI-upgrade / Stakeholder Pain)
-> - [ ] 3 Quick Cards mỗi card đủ 7 trường thông tin
-> - [ ] Metric có con số cụ thể (không viết chung chung)
-> - [ ] Quick Architecture được chọn và có giải thích ngắn
