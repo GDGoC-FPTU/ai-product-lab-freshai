@@ -23,7 +23,7 @@ Hãy sử dụng **4 Lenses** dưới đây để quét qua hoạt động vận
 | 5 | Xanh SM | Time-consuming|Kiểm tra hư hỏng phương tiện bằng hình ảnh: Sau tai nạn hoặc khi bàn giao xe, nhân viên phải xem nhiều ảnh để phát hiện vết trầy, móp, nứt. AI Vision có thể tự động phát hiện và đánh dấu vị trí hư hỏng, rút ngắn thời gian giám định. |
 
 ### 3 Quick Problem Cards:
-
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │ QUICK PROBLEM CARD #1                                       │
 │                                                             │
@@ -57,6 +57,10 @@ Hãy sử dụng **4 Lenses** dưới đây để quét qua hoạt động vận
 │                                                             │
 │ Quick Architecture: [ ] No AI  [ ] Rule  [ ] LLM  [x] Agent │
 └─────────────────────────────────────────────────────────────┘
+```
+
+
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │ QUICK PROBLEM CARD #2                                       │
 │                                                             │
@@ -101,11 +105,13 @@ Hãy sử dụng **4 Lenses** dưới đây để quét qua hoạt động vận
 │ Quick Architecture:                                         │
 │ [ ] No AI   [ ] Rule   [ ] LLM   [x] ML + Optimization Agent│
 └─────────────────────────────────────────────────────────────┘
+```
 
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │ QUICK PROBLEM CARD #3                                       │
 │                                                             │
-│ Bài toán (1 câu): │ Kiểm tra hư hỏng phương tiện bằng hình  |
+│ Bài toán (1 câu): Kiểm tra hư hỏng phương tiện bằng hình    |
 | ảnh để tự động phát hiện vết trầy, móp và nứt trên xe.      |
 │ Công ty thành viên:                                         │
 │ [x] VinFast   [x] Xanh SM   [ ] Vinhomes                    |
@@ -147,3 +153,4 @@ Hãy sử dụng **4 Lenses** dưới đây để quét qua hoạt động vận
 │ Quick Architecture:                                         │
 │ [ ] No AI   [ ] Rule   [ ] LLM   [x] Computer Vision        │
 └─────────────────────────────────────────────────────────────┘
+```
