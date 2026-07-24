@@ -27,33 +27,35 @@ Hãy sử dụng **4 Lenses** dưới đây để quét qua hoạt động vận
 ┌─────────────────────────────────────────────────────────────┐
 │ QUICK PROBLEM CARD #1                                       │
 │                                                             │
-│ Bài toán (1 câu): Rà soát video Driver Monitoring để xác nhận tài xế đang mất tập trung  │
+│ Bài toán (1 câu): Rà soát video Driver Monitoring để        |
+| xác nhận tài xế đang mất tập trung                          │
 │ Công ty thành viên: [x] VinFast  [ ] Xanh SM  [ ] Vinhomes  │
 │                     [ ] Vinmec   [ ] Khác (Ghi rõ)________  │
 │                                                             │
-│ Ai đang đau (Actor)? AI Engineer, Các bài báo cáo TNGT │     
+│ Ai đang đau (Actor)? AI Engineer, Các bài báo cáo TNGT      │     
 │                                                             │
 │ Workflow thủ công hiện tại (3-5 bước):                      │
 │   1. Camera trên xe ghi nhận video và AI tạo cảnh báo.      |
 |     ──> 2. Kỹ sư mở từng video để xem lại.                  |
-|     ──> 3. Đánh giá cảnh báo đúng/sai, xác định nguyên nhân. |
-|     ──> 4. Gán nhãn dữ liệu và cập nhật dataset để huấn luyện. │
+|     ──> 3. Đánh giá cảnh báo đúng/sai, xác định nguyên nhân |
+|     ──> 4. Gán nhãn dữ liệu và cập nhật dataset để huấn luyện│
 │                                                             │
-│ Bước nào tốn thời gian/lỗi nhất?Bước 2 & 3   
-|  Khoảng 2–5 phút/video (tùy độ dài và độ phức tạp).      │
-│ AI có thể nhảy vào hỗ trợ ở bước nào?
-|    → Sau khi AI phát hiện sự kiện:                      │
+│ Bước nào tốn thời gian/lỗi nhất?Bước 2 & 3                  |
+|  Khoảng 2–5 phút/video (tùy độ dài và độ phức tạp).         │
+│ AI có thể nhảy vào hỗ trợ ở bước nào?                       |
+|    → Sau khi AI phát hiện sự kiện:                          │
 │   • Tự đánh giá confidence.                                 │
-│   • Tự phân loại đúng/sai với các trường hợp dễ.  │
-│   • Chỉ chuyển các video có confidence thấp cho kỹ sư. │
-│   • Tự cắt đoạn video liên quan và tạo tóm tắt sự kiện.      
+│   • Tự phân loại đúng/sai với các trường hợp dễ.            │
+│   • Chỉ chuyển các video có confidence thấp cho kỹ sư.      │
+│   • Tự cắt đoạn video liên quan và tạo tóm tắt sự kiện.     | 
 │                                                             │
-│ Đo thành công bằng gì (Metric có số)? │
-│ • Giảm thời gian review từ 3 phút xuống dưới 1 phút/video. │
-│ • Giảm ≥50% số video cần review thủ công.   │
-│ • Precision của cảnh báo >95%.  │
-│ • False Positive Rate giảm ≥30%. │
-│ • Tăng số video được review mỗi kỹ sư/ngày từ khoảng 150 lên trên 300 video.│
+│ Đo thành công bằng gì (Metric có số)?                       │
+│ • Giảm thời gian review từ 3 phút xuống dưới 1 phút/video.  │
+│ • Giảm ≥50% số video cần review thủ công.                   │
+│ • Precision của cảnh báo >95%.                              │
+│ • False Positive Rate giảm ≥30%.                            │
+│ • Tăng số video được review mỗi kỹ sư/ngày từ khoảng 150    |
+| lên trên 300 video.                                         │  
 │                                                             │
 │ Quick Architecture: [ ] No AI  [ ] Rule  [ ] LLM  [x] Agent │
 └─────────────────────────────────────────────────────────────┘
